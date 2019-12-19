@@ -1,0 +1,81 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #c79a70;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.h1Intro {
+  text-align: center;
+  color: #d35731;
+  text-transform: uppercase;
+}
+
+.tableStyle {
+  border: 5px solid #2cd8ca;
+  border-radius: 15px;
+  width: 50vw;
+  margin: 50px;
+  background-color: #1d998fd0;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.tableHeaderStyle {
+  border: 3px solid #2cd8ca;
+  border-radius: 15px;
+  text-align: center;
+  color: #5fcf97;
+  text-transform: uppercase;
+  background-color: #dd3838d8;
+  font-size: 50px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.recipeItemsStyle {
+  text-transform: capitalize;
+  text-align: center;
+  color: #ffffff;
+}
+
+.ingredientStyle {
+  border: 2px dotted #2cd8ca;
+  border-radius: 15px;
+  background-color: #1d998fd0;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.ingredientStyle:hover {
+  color: #e93737b9;
+}
+
+.counterColor {
+  color: #000000cc;
+  border: 3px solid;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+/*# sourceMappingURL=main.css.map */

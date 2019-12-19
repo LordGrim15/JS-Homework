@@ -1,0 +1,71 @@
+@import './resets';
+@import './variables';
+
+body {
+	background-color: $bg-color;
+	display: flex;
+	justify-content: center;
+}
+
+.h1Intro {
+	text-align: center;
+	color: $main-text-color;
+	text-transform: uppercase;
+}
+
+.tableStyle {
+	border: 5px solid $table-color;
+	border-radius: 15px;
+	width: 50vw;
+	margin: 50px;
+	background-color: $table-td-bg-color;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+}
+
+.tableHeaderStyle {
+	border: 3px solid $table-color;
+	border-radius: 15px;
+	text-align: center;
+	color: $table-header-text-color;
+	text-transform: uppercase;
+	background-color: $table-header-bg-color;
+	font-size: 50px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+}
+
+.recipeItemsStyle {
+	text-transform: capitalize;
+	text-align: center;
+	color: $table-text-color;
+}
+
+.ingredientStyle {
+	border: 2px dotted $table-color;
+	border-radius: 15px;
+	background-color: $table-td-bg-color;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	&:hover {
+		color: $hover-color;
+	}
+}
+
+.counterColor {
+	color: $counter-color;
+	border: 3px solid;
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
