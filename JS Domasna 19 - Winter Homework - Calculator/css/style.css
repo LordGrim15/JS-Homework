@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+
+.btn,
+.btnsOperator,
+#backSpace,
+#c:hover {
+    cursor: url('../images/aero-large-middle-finger-2.cur'), pointer;
+}
+
+.btn {
+    background-color: aquamarine;
+    margin: 2px;
+    padding: 5px;
+    width: 50px;
+}
+
+.btnsOperator {
+    background-color: red;
+    margin: 2px;
+    padding: 5px;
+    width: 40px;
+}
+
+#c,
+#backSpace {
+    background-color: yellow;
+    margin: 2px;
+    padding: 5px;
+}
+
+.mainContainer {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#c {
+    width: 50px;
+}
+
+#backSpace {
+    width: 109px;
+}
+
+#btnEqual {
+    background-color: lightgreen;
+    width: 100px;
+    cursor: url(http://cur.cursors-4u.net/food/foo-3/foo245.ani), url(http://cur.cursors-4u.net/food/foo-3/foo245.png), auto;
+}
+
+#input {
+    font-size: 20px;
+    text-align: right;
+    height: 30px;
+    width: 222px;
+}
