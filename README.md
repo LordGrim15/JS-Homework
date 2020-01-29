@@ -16,3 +16,4 @@
 # JS-Homework 16 - jQuery - Greeting App #1
 # JS-Homework 17 - jQuery - Header Generator #2
 # JS-Homework 18 - Winter Homework - Number To Words
+# JS Domasna 19 - Winter Homework - Calculator
